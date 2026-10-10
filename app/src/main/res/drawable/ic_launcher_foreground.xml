@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer HUD ring -->
+    <path
+        android:strokeColor="#4D00E5FF"
+        android:strokeWidth="1.5"
+        android:pathData="M 54,26 A 28,28 0 1 1 53.99,26 Z" />
+
+    <!-- Dashed tactical ring segments -->
+    <path
+        android:strokeColor="#CC00E5FF"
+        android:strokeWidth="2.5"
+        android:pathData="M 54,30 A 24,24 0 0 1 78,54" />
+    <path
+        android:strokeColor="#CC00E5FF"
+        android:strokeWidth="2.5"
+        android:pathData="M 54,78 A 24,24 0 0 1 30,54" />
+        
+    <!-- Arc reactor power nodes (top, bottom, left, right) -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M 52,24 H 56 V 29 H 52 Z" />
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M 52,79 H 56 V 84 H 52 Z" />
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M 24,52 H 29 V 56 H 24 Z" />
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M 79,52 H 84 V 56 H 79 Z" />
+
+    <!-- Inner reactor core ring -->
+    <path
+        android:strokeColor="#8038BDF8"
+        android:strokeWidth="2"
+        android:pathData="M 54,37 A 17,17 0 1 1 53.99,37 Z" />
+
+    <!-- Center triangle / arc reactor core -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M 54,42 L 64.5,60 L 43.5,60 Z" />
+        
+    <!-- Glowing inner node -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 54,48 A 4,4 0 1 1 53.99,48 Z" />
+
+    <!-- Female voice / soundwave subtle frequency bars at bottom of core -->
+    <path
+        android:strokeColor="#F59E0B"
+        android:strokeWidth="1.5"
+        android:pathData="M 44,66 L 44,70 M 49,65 L 49,71 M 54,64 L 54,72 M 59,65 L 59,71 M 64,66 L 64,70" />
+</vector>
